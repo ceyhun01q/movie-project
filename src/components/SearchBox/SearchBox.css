@@ -1,0 +1,47 @@
+.searchBoxForm {
+  display: flex;
+}
+
+.searchBoxFormLabel{
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.searchBoxFormInput {
+  box-sizing: border-box;
+  display: block;
+  margin-top: 10px;
+  width: 300px;
+  height:30px ;
+  font-size: 14px;
+  border: 1px solid black
+}
+
+.searchBoxFormSubmit {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color:blue #000 blue;
+  border-radius: 6px;
+  background: blue;
+  transition: 0.2s;
+}
+
+.searchBoxFormSubmit:hover:not(:disabled) {
+  background-color:white;
+  background: blue;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.searchBoxFormLabelSubmit {
+  margin-top: 30px;
+  width: 80px;
+  height: 30px;
+  background-color:skyblue;
+  cursor: pointer;
+}

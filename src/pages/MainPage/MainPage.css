@@ -1,0 +1,20 @@
+.mainPageContent {
+  padding: 42px calc(50% - 500px);
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.mainPageSection {
+  padding-left: 40px;
+  box-sizing: border-box;
+  width: 60%;
+}
+
+.mainPageSearchBox {
+  margin-bottom: 35px;
+}
+
+.mainPageFavorites {
+  width: 35%;
+}

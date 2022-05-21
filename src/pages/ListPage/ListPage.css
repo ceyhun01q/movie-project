@@ -1,0 +1,25 @@
+.list-page {
+  padding: 42px calc(50% - 300px);
+}
+
+.list-page__title {
+  font-size: 34px;
+  margin-bottom: 26px;
+}
+
+.list-page ul li {
+  font-size: 18px;
+ 
+}
+
+.movie-item {
+  margin-bottom: 20px;
+  background-color: grey;
+  display: flex;
+  border-radius: 10px;
+}
+
+.link-film {
+  display: flex;
+  align-items: center;
+}
